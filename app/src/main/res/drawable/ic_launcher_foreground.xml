@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Journal Me glyph: an open notebook with an amber ribbon, inside the 66dp adaptive-icon safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Pages -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M52,40 C46,36.5 39,35.5 32,36.5 L32,70 C39,69 46,70 52,73.5 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M56,40 C62,36.5 69,35.5 76,36.5 L76,70 C69,69 62,70 56,73.5 Z" />
+    <!-- Handwriting lines -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="@color/brand"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round"
+        android:pathData="M37,46 L47.5,47.4 M37,52.5 L47.5,53.9 M37,59 L44,60" />
+    <!-- Ribbon bookmark -->
+    <path
+        android:fillColor="@color/brand_ribbon"
+        android:pathData="M65.5,36.3 L71.5,35.9 L71.5,50 L68.5,47.4 L65.5,50 Z" />
+</vector>

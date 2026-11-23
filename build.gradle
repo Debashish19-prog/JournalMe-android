@@ -1,0 +1,28 @@
+// Top-level build file. App dependencies belong in app/build.gradle.
+//
+// Toolchain: Gradle 9.7 · AGP 9.5 (built-in Kotlin 2.2) · JDK 25 (Android Studio's JBR).
+// See gradle/wrapper/gradle-wrapper.properties for why.
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:9.5.0'
+        classpath 'com.google.gms:google-services:4.4.4'
+    }
+}
+
+apply from: "variables.gradle"
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+tasks.register('clean', Delete) {
+    delete rootProject.layout.buildDirectory
+}

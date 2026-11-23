@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Journal Me purple (matches the web theme's accent). -->
+    <color name="brand">#7C5CFA</color>
+    <color name="brand_dark">#5B3FD6</color>
+    <color name="brand_ribbon">#FFC24B</color>
+    <color name="ic_launcher_background">#7C5CFA</color>
+    <color name="splash_background">#FFFFFF</color>
+
+    <color name="colorPrimary">@color/brand</color>
+    <color name="colorPrimaryDark">@color/brand_dark</color>
+    <color name="colorAccent">@color/brand</color>
+</resources>
